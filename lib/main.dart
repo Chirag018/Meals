@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meals/category_meals_screen.dart';
-<<<<<<< Updated upstream
-=======
 import 'package:meals/dummy_data.dart';
 import 'package:meals/filters_screen.dart';
->>>>>>> Stashed changes
 import 'package:meals/meal_detail_screen.dart';
 import 'package:meals/models/meal.dart';
 import 'package:meals/tabs_screen.dart';
@@ -69,10 +66,7 @@ class _MyAppState extends State<MyApp> {
         CategoryMealsScreen.routeName: (context) =>
             CategoryMealsScreen(_availableMeals),
         MealDetailScreen.routeName: (context) => MealDetailScreen(),
-<<<<<<< Updated upstream
-=======
         FiltersScreen.routeName: (context) => FiltersScreen(_filters,_setFilters),
->>>>>>> Stashed changes
       },
     );
   }
